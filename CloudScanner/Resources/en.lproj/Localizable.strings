@@ -1,0 +1,27 @@
+// MARK: - Weather Conditions
+"CLEAR_SKIES" = "Clear Skies";
+"PARTLY_CLOUDY" = "Partly Cloudy";
+"OVERCAST" = "Overcast";
+"CLOUDY" = "Cloudy";
+
+// MARK: - Cloud Types
+"CUMULUS" = "Cumulus";
+"STRATUS" = "Stratus";
+"CIRRUS" = "Cirrus";
+"CUMULONIMBUS" = "Cumulonimbus";
+
+// MARK: - Metrics
+"TEMPERATURE" = "Temperature";
+"HUMIDITY" = "Humidity";
+"WIND_SPEED" = "Wind Speed";
+"VISIBILITY" = "Visibility";
+
+// MARK: - Generative Options
+"Cloud Art" = "Cloud Art";
+"Original" = "Original";
+"AI Generated Versions" = "AI Generated Versions";
+"Generating cloud art..." = "Generating cloud art...";
+"Generate Cloud Art" = "Generate Cloud Art";
+"Share Images" = "Share Images";
+"Cancel" = "Cancel";
+ 

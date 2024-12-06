@@ -1,0 +1,32 @@
+{
+    "projectName": "CloudClassifier",
+    "version": "1.0",
+    "tasks": [
+        {
+            "taskType": "objectDetector",
+            "title": "Cloud Detection",
+            "description": "Detect and classify different types of clouds in images",
+            "model": {
+                "modelType": "objectDetector",
+                "parameters": {
+                    "algorithm": "yolov3",
+                    "maximumIterations": 20000,
+                    "augmentations": {
+                        "exposure": [-0.3, 0.3],
+                        "saturation": [-0.3, 0.3],
+                        "brightness": [-0.3, 0.3],
+                        "rotation": [-15, 15]
+                    }
+                }
+            },
+            "classes": [
+                "cumulus",
+                "stratus",
+                "cirrus",
+                "cumulonimbus",
+                "altocumulus",
+                "stratocumulus"
+            ]
+        }
+    ]
+} 

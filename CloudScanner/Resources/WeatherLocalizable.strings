@@ -1,0 +1,17 @@
+// Weather Conditions
+"CLEAR_SKIES" = "Clear Skies";
+"PARTLY_CLOUDY" = "Partly Cloudy";
+"OVERCAST" = "Overcast";
+"CLOUDY" = "Cloudy";
+
+// Cloud Types
+"CUMULUS" = "Cumulus";
+"STRATUS" = "Stratus";
+"CIRRUS" = "Cirrus";
+"CUMULONIMBUS" = "Cumulonimbus";
+
+// Weather Metrics
+"TEMPERATURE" = "Temperature";
+"HUMIDITY" = "Humidity";
+"WIND_SPEED" = "Wind Speed";
+"VISIBILITY" = "Visibility"; 

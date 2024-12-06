@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B07AEC742CFF9C500004C1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07AEC5B2CFF9C4E0004C1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07AEC622CFF9C4E0004C1BF;
+			remoteInfo = CloudScanner;
+		};
+		B07AEC7E2CFF9C500004C1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07AEC5B2CFF9C4E0004C1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07AEC622CFF9C4E0004C1BF;
+			remoteInfo = CloudScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B07AEC632CFF9C4E0004C1BF /* CloudScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07AEC732CFF9C500004C1BF /* CloudScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07AEC7D2CFF9C500004C1BF /* CloudScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B085BE372CFFFA8D00845D9A /* Exceptions for "CloudScanner" folder in "CloudScanner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Localizable.strings",
+				App/CloudScannerApp.swift,
+				Assets.xcassets,
+				Info.plist,
+				"Preview Content/Preview Assets.xcassets",
+				Resources/Localizable.strings,
+				Resources/Strings.strings,
+				Resources/Weather.strings,
+				Resources/WeatherLocalizable.strings,
+			);
+			target = B07AEC622CFF9C4E0004C1BF /* CloudScanner */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B07AEC652CFF9C4E0004C1BF /* CloudScanner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B085BE372CFFFA8D00845D9A /* Exceptions for "CloudScanner" folder in "CloudScanner" target */,
+			);
+			path = CloudScanner;
+			sourceTree = "<group>";
+		};
+		B07AEC762CFF9C500004C1BF /* CloudScannerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CloudScannerTests;
+			sourceTree = "<group>";
+		};
+		B07AEC802CFF9C500004C1BF /* CloudScannerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CloudScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07AEC602CFF9C4E0004C1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AEC702CFF9C500004C1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AEC7A2CFF9C500004C1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B07AEC5A2CFF9C4E0004C1BF = {
+			isa = PBXGroup;
+			children = (
+				B07AEC652CFF9C4E0004C1BF /* CloudScanner */,
+				B07AEC762CFF9C500004C1BF /* CloudScannerTests */,
+				B07AEC802CFF9C500004C1BF /* CloudScannerUITests */,
+				B07AEC642CFF9C4E0004C1BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B07AEC642CFF9C4E0004C1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07AEC632CFF9C4E0004C1BF /* CloudScanner.app */,
+				B07AEC732CFF9C500004C1BF /* CloudScannerTests.xctest */,
+				B07AEC7D2CFF9C500004C1BF /* CloudScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B07AEC622CFF9C4E0004C1BF /* CloudScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07AEC872CFF9C500004C1BF /* Build configuration list for PBXNativeTarget "CloudScanner" */;
+			buildPhases = (
+				B07AEC5F2CFF9C4E0004C1BF /* Sources */,
+				B07AEC602CFF9C4E0004C1BF /* Frameworks */,
+				B07AEC612CFF9C4E0004C1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B07AEC652CFF9C4E0004C1BF /* CloudScanner */,
+			);
+			name = CloudScanner;
+			packageProductDependencies = (
+			);
+			productName = CloudScanner;
+			productReference = B07AEC632CFF9C4E0004C1BF /* CloudScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B07AEC722CFF9C500004C1BF /* CloudScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07AEC8A2CFF9C500004C1BF /* Build configuration list for PBXNativeTarget "CloudScannerTests" */;
+			buildPhases = (
+				B07AEC6F2CFF9C500004C1BF /* Sources */,
+				B07AEC702CFF9C500004C1BF /* Frameworks */,
+				B07AEC712CFF9C500004C1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07AEC752CFF9C500004C1BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B07AEC762CFF9C500004C1BF /* CloudScannerTests */,
+			);
+			name = CloudScannerTests;
+			packageProductDependencies = (
+			);
+			productName = CloudScannerTests;
+			productReference = B07AEC732CFF9C500004C1BF /* CloudScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B07AEC7C2CFF9C500004C1BF /* CloudScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07AEC8D2CFF9C500004C1BF /* Build configuration list for PBXNativeTarget "CloudScannerUITests" */;
+			buildPhases = (
+				B07AEC792CFF9C500004C1BF /* Sources */,
+				B07AEC7A2CFF9C500004C1BF /* Frameworks */,
+				B07AEC7B2CFF9C500004C1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07AEC7F2CFF9C500004C1BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B07AEC802CFF9C500004C1BF /* CloudScannerUITests */,
+			);
+			name = CloudScannerUITests;
+			packageProductDependencies = (
+			);
+			productName = CloudScannerUITests;
+			productReference = B07AEC7D2CFF9C500004C1BF /* CloudScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B07AEC5B2CFF9C4E0004C1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B07AEC622CFF9C4E0004C1BF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B07AEC722CFF9C500004C1BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B07AEC622CFF9C4E0004C1BF;
+					};
+					B07AEC7C2CFF9C500004C1BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B07AEC622CFF9C4E0004C1BF;
+					};
+				};
+			};
+			buildConfigurationList = B07AEC5E2CFF9C4E0004C1BF /* Build configuration list for PBXProject "CloudScanner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B07AEC5A2CFF9C4E0004C1BF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B07AEC642CFF9C4E0004C1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07AEC622CFF9C4E0004C1BF /* CloudScanner */,
+				B07AEC722CFF9C500004C1BF /* CloudScannerTests */,
+				B07AEC7C2CFF9C500004C1BF /* CloudScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07AEC612CFF9C4E0004C1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AEC712CFF9C500004C1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AEC7B2CFF9C500004C1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B07AEC5F2CFF9C4E0004C1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AEC6F2CFF9C500004C1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AEC792CFF9C500004C1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B07AEC752CFF9C500004C1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07AEC622CFF9C4E0004C1BF /* CloudScanner */;
+			targetProxy = B07AEC742CFF9C500004C1BF /* PBXContainerItemProxy */;
+		};
+		B07AEC7F2CFF9C500004C1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07AEC622CFF9C4E0004C1BF /* CloudScanner */;
+			targetProxy = B07AEC7E2CFF9C500004C1BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B07AEC852CFF9C500004C1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B07AEC862CFF9C500004C1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B07AEC882CFF9C500004C1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudScanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudScanner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "CloudScanner needs camera access to capture and analyze cloud photos.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to provide accurate weather data and cloud analysis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to your photo library is needed to save cloud photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cloud.CloudScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B07AEC892CFF9C500004C1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudScanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudScanner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "CloudScanner needs camera access to capture and analyze cloud photos.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to provide accurate weather data and cloud analysis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to your photo library is needed to save cloud photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cloud.CloudScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B07AEC8B2CFF9C500004C1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cloud.CloudScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudScanner";
+			};
+			name = Debug;
+		};
+		B07AEC8C2CFF9C500004C1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cloud.CloudScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudScanner";
+			};
+			name = Release;
+		};
+		B07AEC8E2CFF9C500004C1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cloud.CloudScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudScanner;
+			};
+			name = Debug;
+		};
+		B07AEC8F2CFF9C500004C1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cloud.CloudScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07AEC5E2CFF9C4E0004C1BF /* Build configuration list for PBXProject "CloudScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AEC852CFF9C500004C1BF /* Debug */,
+				B07AEC862CFF9C500004C1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07AEC872CFF9C500004C1BF /* Build configuration list for PBXNativeTarget "CloudScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AEC882CFF9C500004C1BF /* Debug */,
+				B07AEC892CFF9C500004C1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07AEC8A2CFF9C500004C1BF /* Build configuration list for PBXNativeTarget "CloudScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AEC8B2CFF9C500004C1BF /* Debug */,
+				B07AEC8C2CFF9C500004C1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07AEC8D2CFF9C500004C1BF /* Build configuration list for PBXNativeTarget "CloudScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AEC8E2CFF9C500004C1BF /* Debug */,
+				B07AEC8F2CFF9C500004C1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B07AEC5B2CFF9C4E0004C1BF /* Project object */;
+}
